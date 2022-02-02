@@ -1,0 +1,47 @@
+.truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.wd-100 {
+    width: 100px;
+}
+
+.wd-200 {
+    width: 200px;
+}
+
+.wd-500 {
+    width: 500px;
+}
+
+.inactive,
+.inactive .available,
+.inactive .unavailable,
+.inactive a {
+    color: gray;
+}
+
+.available {
+    color: #44CF6C;
+    font-weight: bold;
+}
+
+.unavailable {
+    color: #FE5F55;
+}
+
+.start {
+    color: #44CF6C;
+}
+
+.stop {
+    color: #FFA500;
+}
